@@ -1,4 +1,5 @@
 FROM gitpod/workspace-full
 
-## Install the CLI with Homebrew
-RUN brew install okteto
+## Install the CLIs with Homebrew
+RUN brew install okteto && \
+    brew install helm
